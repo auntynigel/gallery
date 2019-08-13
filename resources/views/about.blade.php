@@ -8,10 +8,11 @@
     <link href="css/app.css" rel="stylesheet">
   </head>
   <body>
+    {{-- HEADER --}}
     <div class="flex-header">
-    <div class="flex-nav links">
-      <img src="images/neebles.png" alt="Logo of a cute monster" height="100px">
-    </div>
+      <div class="flex-nav links">
+        <img src="images/neebles.png" alt="Logo of a cute monster" height="100px">
+      </div>
       <div class="flex-nav title">
         <h2>Mark</h2>
       </div>
@@ -32,6 +33,21 @@
       </div>
       <div class="flex-nav links">
         <a href="https://github.com/auntynigel" target="_blank" aria-label="Go to my github repo">GitHub</a>
+      </div>
+    </div>
+    {{-- FOOTER --}}
+    <div class="flex-header">
+      <div class="flex-foot-column">
+        <h4>Column One</h4>
+      </div>
+      <div class="flex-foot-column">
+        <h4>Column Two</h4>
+      </div>
+      <div class="flex-foot-column">
+        <h4>Column Three</h4>
+      </div>
+      <div class="flex-foot-column">
+        <h4>Column Four</h4>
       </div>
     </div>
   </body>

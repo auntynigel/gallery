@@ -5,6 +5,7 @@
 // Variables
 @import 'variables';
 @import 'header';
+@import 'footer';
 
 // Bootstrap
 @import '~bootstrap/scss/bootstrap';
@@ -56,6 +57,9 @@ html, body {
 
 .title {
     font-size: 84px;
+    h2 {
+      text-shadow: 1px 3px $monster;
+    }
 }
 
 .clear {
@@ -76,7 +80,7 @@ html, body {
 .links > a:hover {
   text-decoration:underline;
   margin-bottom:0.5em;
-  color: red;
+  color: $monster;
 }
 
 .m-b-md {

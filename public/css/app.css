@@ -19,6 +19,23 @@
   flex: 1 1 auto;
 }
 
+.flex-footer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-content: space-around;
+  align-items: flex-end;
+  background-color: #003A45;
+  color: #f8fafc;
+}
+
+.flex-foot-column {
+  order: 0;
+  flex: 0 1 auto;
+  align-self: auto;
+}
+
 /*!
  * Bootstrap v4.3.1 (https://getbootstrap.com/)
  * Copyright 2011-2019 The Bootstrap Authors
@@ -10713,6 +10730,10 @@ body {
   font-size: 84px;
 }
 
+.title h2 {
+  text-shadow: 1px 3px #3BC1DA;
+}
+
 .clear {
   clear: both;
   width: 100vw;
@@ -10731,7 +10752,7 @@ body {
 .links > a:hover {
   text-decoration: underline;
   margin-bottom: 0.5em;
-  color: red;
+  color: #3BC1DA;
 }
 
 .m-b-md {
